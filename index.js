@@ -1,5 +1,6 @@
 
 const { SelectMenuOptionBuilder } = require('@discordjs/builders');
+require('dotenv').config();
 const Discord = require('discord.js');
 const prefix = "!10s"
 const { Client, GatewayIntentBits, channelMention,ActivityType } = require('discord.js');
@@ -125,14 +126,7 @@ client.on('messageCreate',  async (message) => {
 
 
 
-
-
-
-
-
-
-
-client.login("MTAyMTY3NTIzMzYyODkxMzY2NA.G7VSnP.lHSRO7kikUJQiV1ygEkUZXPzR8ZStdcTAgVp84"); 
+client.login(); 
 
 
 
